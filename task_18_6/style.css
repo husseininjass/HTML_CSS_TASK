@@ -5,3 +5,41 @@ td,tr,th{
 table{
     border-collapse: collapse;
 }
+.jack{
+    width: 600px;
+    padding: 5px;
+    margin: 0 auto;
+    
+    border: 3px solid #eee;
+}
+.meet_jack,.image{
+    text-align: center;
+
+}
+.rights{
+    text-align: center;
+}
+
+
+input,select{
+    margin-bottom: 5px;
+    margin-left: 40px;
+    
+    
+}
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+
+
+.small{
+    width: 7%;
+}
+.button{
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
