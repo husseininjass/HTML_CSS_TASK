@@ -1,0 +1,16 @@
+body{
+    background-color: #ccc;
+}
+h2{
+    color: rgb(136, 85, 85);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    padding: 10px;
+    background-color: #eee;
+    color: rgb(57, 38, 10);
+    border-radius: 10%;
+}
