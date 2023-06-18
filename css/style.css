@@ -4,6 +4,7 @@ body{
 h2{
     color: rgb(136, 85, 85);
     font-weight: bold;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -13,4 +14,11 @@ a{
     background-color: #eee;
     color: rgb(57, 38, 10);
     border-radius: 10%;
+    display: block;
+    text-align: center;
+    transition: 0.2s;
+}
+a:hover{
+    color: rgb(6, 168, 213);
+    font-size: 20px;
 }
