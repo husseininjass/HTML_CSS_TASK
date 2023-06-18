@@ -2,3 +2,6 @@ td,tr,th{
     border: 1px dotted black;
     padding: 10px;
 }
+table{
+    border-collapse: collapse;
+}
