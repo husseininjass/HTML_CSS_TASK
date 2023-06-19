@@ -3,31 +3,49 @@ body{
 }
 .orange{
     background-color: orange;
+    font-weight: bold;
 }
 .yellow{
     background-color: yellow;
+    font-weight: bold;
 }
 .one{
     border: 2px solid black;
     width: 40%;
 }
 .two{
-    border: 2px dotted black;
+    border: 2px dashed black;
     width: 40%;
 }
 .paragraph{
-    border: 2px dotted red;
+    border: 2px dashed red;
     
 }
 .three{
     border: 2px solid purple;
     width: 40%;
+    color: purple;
 }
 .heading{
     color: purple;
     font-weight: bolder;
 }
-div{
+.one,.two,.three{
     margin-bottom: 20px;
     padding: 20px;
+}
+.para_one{
+    color: orange;
+    width: 40%;
+}
+.inline{
+    font-weight: bold;
+    
+}
+.para_two{
+    width: 40%;
+}
+.para_three{
+    background-image: url(../cena3.jpg);
+    width: 40%;
 }
