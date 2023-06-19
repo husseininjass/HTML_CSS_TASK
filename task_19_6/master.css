@@ -70,3 +70,34 @@ img{
     top: 45px;
     left: 400px;
 }
+.title{
+    text-decoration: underline;
+}
+.first_par{
+    color: blue;
+}
+.first_par a{
+    color: orange;
+}
+.second_par a{
+    color: orange;
+}
+.third_par span{
+    background-color: yellow;
+    text-decoration: underline;
+}
+.first_list{
+    font-weight: bold;
+}
+.first_list a {
+    color: red;
+}
+.second_list li{
+    color: blue;
+}
+.third_list{
+    list-style: none;
+}
+.second_list li a{
+    color: red;
+}
