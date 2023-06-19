@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.one{
+    border: 2px solid black;
+    width: 40%;
+}
+.two{
+    border: 2px dotted black;
+    width: 40%;
+}
+.paragraph{
+    border: 2px dotted red;
+    
+}
+.three{
+    border: 2px solid purple;
+    width: 40%;
+}
+.heading{
+    color: purple;
+    font-weight: bolder;
+}
+div{
+    margin-bottom: 20px;
+    padding: 20px;
+}
