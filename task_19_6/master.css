@@ -49,3 +49,24 @@ body{
     background-image: url(../cena3.jpg);
     width: 40%;
 }
+.last{
+    color: red;
+}
+.last:hover{
+    border: 2px solid grey;
+    font-size: 20px;
+    opacity: 0.5;
+    color: black;
+}
+.paragraphs{
+    width: 40%;
+    
+}
+.parent{
+    position: relative;
+}
+img{
+    position: absolute;
+    top: 45px;
+    left: 400px;
+}
