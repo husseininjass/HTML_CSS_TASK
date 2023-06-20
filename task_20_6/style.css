@@ -1,0 +1,21 @@
+div{
+    background-color: red;
+    color: white;
+    display: inline;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.even{
+    display: none;
+}
+.image{ 
+    width: 250px;height: 400px;
+ 
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-image: url(../itachi.jpg);
+    background-size: 250px 250px;
+    background-color: white;
+}
