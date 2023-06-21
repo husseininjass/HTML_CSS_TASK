@@ -72,12 +72,12 @@ div div::after{
     background-color: #ccc;
     width: 300px;
     display: grid;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, auto);
     justify-content: space-between;
     gap: 10px;
 }
 .container div{
     background-image: url(../cena1.jpg);
-    width: 65px;
+    width: 50px;
     height: 50px;
 }
