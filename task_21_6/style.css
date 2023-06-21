@@ -1,0 +1,83 @@
+.parent{
+    border: 3px solid #daa520;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    align-items: flex-start;
+    align-content: space-between;
+}
+div div{
+    counter-increment: name;
+    width: 50px;
+    height: 200px;
+    color: white;
+}
+div div::after{
+    content: counter(name);
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: orange;
+}
+.four{
+    background-color: aqua;
+}
+.five{
+    background-color: beige;
+}
+.six{
+    background-color: brown;
+}
+.seven{
+    background-color: blueviolet;
+}
+.eight{
+    background-color: cadetblue;
+}
+.nine{
+    background-color: #ccc;
+}
+.parent2{
+    width: 200px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas: "child1 child1 child2 child2";
+    margin: 10px auto;
+}
+.parent2 .child1{
+    background-color: yellowgreen;
+    grid-area: child1;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent2 .child2{
+    background-color: blue;
+    grid-area: child2;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ccc;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: space-between;
+    gap: 10px;
+}
+.container div{
+    background-image: url(../cena1.jpg);
+    width: 65px;
+    height: 50px;
+}
