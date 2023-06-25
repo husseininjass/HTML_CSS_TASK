@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener('contextmenu', 
+        event => event.preventDefault()
+        );
+        document.addEventListener("keydown", function (event){
+        if (event.ctrlKey){
+        event.preventDefault();
+        }
+        if(event.keyCode == 123){
+        event.preventDefault();
+        }
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container header">
+        <div class="HdrDiv">
+            <div class="welcome">Welcome to our website!</div>
+            <div class="look">Look at this button! Wow, let's click on it!</div>
+            <button class="btn">Learn more</button>
+        </div>
+    </header>
+    <main class="container">
+        <p class="para_a">Let's look at some random pictures! <span>from http://lorempixel.com</span< /p>
+                <div class="main">
+                    <div class="para1">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos minima veniam! Ut
+                            magni earum, aliquid minima facilis quam autem dicta! Cum, modi iusto. Aliquid vitae, deserunt
+                            dolores voluptatibus accusamus similique maxime dolor debitis! Eum iusto culpa nostrum tenetur
+                            aut.
+                        </p>
+                        <img src="../computer.jpg">
+                    </div>
+                    <div class="para1">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos minima veniam! Ut
+                            magni earum, aliquid minima facilis quam autem dicta! Cum, modi iusto. Aliquid vitae, deserunt
+                            dolores voluptatibus accusamus similique maxime dolor debitis! Eum iusto culpa nostrum tenetur
+                            aut.
+                        </p>
+                        <img src="../computer.jpg">
+                    </div>
+                    <div class="para1">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dignissimos minima veniam! Ut
+                            magni earum, aliquid minima facilis quam autem dicta! Cum, modi iusto. Aliquid vitae, deserunt
+                            dolores voluptatibus accusamus similique maxime dolor debitis! Eum iusto culpa nostrum tenetur
+                            aut.
+                        </p>
+                        <img src="../computer.jpg">
+                    </div>
+                </div>
+    </main>
+    <hr>
+    <footer class="container">
+        <div class="thank">Thanks for Visiting!</div>
+    </footer>
+</body>
+
+</html>
